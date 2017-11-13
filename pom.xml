@@ -191,6 +191,30 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.35</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>jasper</artifactId>
+			<version>6.0.53</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/jasper-el -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>jasper-el</artifactId>
+			<version>6.0.53</version>
+		</dependency>
+
+
+
 	</dependencies>
 	<build>
 		<finalName>survey</finalName>

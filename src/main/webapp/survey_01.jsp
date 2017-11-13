@@ -11,9 +11,12 @@
 <meta name="description"
 	content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
 
-<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/weui.min.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/jquery-weui.css">
-<link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/demos.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/assets/css/weui.min.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/assets/css/jquery-weui.css">
+<link rel="stylesheet"
+	href="${pageContext.request.contextPath}/assets/css/demos.css">
 </head>
 
 <body ontouchstart>
@@ -31,9 +34,7 @@
 				<input type="radio" class="weui-check" name="radio1" id="x11">
 				<span class="weui-icon-checked"></span>
 			</div>
-		</label> 
-		
-		<label class="weui-cell weui-check__label" for="x12">
+		</label> <label class="weui-cell weui-check__label" for="x12">
 			<div class="weui-cell__bd">
 				<p>三星</p>
 			</div>
@@ -41,9 +42,7 @@
 				<input type="radio" class="weui-check" name="radio1" id="x12"
 					checked="checked"> <span class="weui-icon-checked"></span>
 			</div>
-		</label>
-		
-		<label class="weui-cell weui-check__label" for="x13">
+		</label> <label class="weui-cell weui-check__label" for="x13">
 			<div class="weui-cell__bd">
 				<p>华为</p>
 			</div>
@@ -51,9 +50,7 @@
 				<input type="radio" class="weui-check" name="radio1" id="x13">
 				<span class="weui-icon-checked"></span>
 			</div>
-		</label> 
-		
-		<label class="weui-cell weui-check__label" for="x14">
+		</label> <label class="weui-cell weui-check__label" for="x14">
 			<div class="weui-cell__bd">
 				<p>小米</p>
 			</div>
@@ -64,6 +61,29 @@
 		</label>
 	</div>
 	
+	<div class="weui-cells__title">复选列表项</div>
+	<div class="weui-cells weui-cells_checkbox">
+		<label class="weui-cell weui-check__label" for="s11">
+			<div class="weui-cell__hd">
+				<input type="checkbox" class="weui-check" name="checkbox1" id="s11"
+					checked="checked"> <i class="weui-icon-checked"></i>
+			</div>
+			<div class="weui-cell__bd">
+				<p>standard is dealt for u.</p>
+			</div>
+		</label> <label class="weui-cell weui-check__label" for="s12">
+			<div class="weui-cell__hd">
+				<input type="checkbox" name="checkbox1" class="weui-check" id="s12">
+				<i class="weui-icon-checked"></i>
+			</div>
+			<div class="weui-cell__bd">
+				<p>standard is dealicient for u.</p>
+			</div>
+		</label> <a href="javascript:void(0);" class="weui-cell weui-cell_link">
+			<div class="weui-cell__bd">添加更多</div>
+		</a>
+	</div>
+
 
 	<div class="weui-btn-area">
 		<a class="weui-btn weui-btn_primary" href="javascript:"
